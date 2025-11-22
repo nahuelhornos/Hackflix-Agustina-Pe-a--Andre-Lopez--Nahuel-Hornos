@@ -1,0 +1,47 @@
+.filter-section {
+    background: transparent;
+    padding: clamp(1.5rem, 3vw, 2.5rem) 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .filter-container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 clamp(2rem, 8vw, 6rem);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .filter-label {
+    font-size: clamp(1.1rem, 2vw, 1.3rem);
+    font-weight: 600;
+    color: #ffffff;
+    letter-spacing: 0.02em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  }
+  
+  .filter-rating-group {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.5rem 1rem;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 12px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  .filter-more {
+    font-size: clamp(1rem, 1.8vw, 1.2rem);
+    color: #cc0000;
+    white-space: nowrap;
+    font-weight: 600;
+  }

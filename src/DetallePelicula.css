@@ -1,0 +1,22 @@
+.document-container {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  min-height: 100vh;
+  padding: clamp(2rem, 5vw, 4rem);
+  padding-top: clamp(6rem, 10vw, 8rem);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.google-doc-iframe {
+  width: 100%;
+  max-width: min(900px, 95vw);
+  height: 90vh;
+  min-height: 600px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+}
+
